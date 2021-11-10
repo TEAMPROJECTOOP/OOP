@@ -60,3 +60,35 @@ int main()
     
     return 0;
 }
+/*#include <iostream>
+using namespace std;
+int main()
+{
+    string name,device;
+    cout<<"                                            ____________________________________ "<<endl;
+    cout<<"                                           |                                    |"<<endl;
+    cout<<"                                           |  **Electronic Devices Inventory**  |"<<endl;
+    cout<<"                                           |____________________________________|"<<endl<<endl;
+    cout<<"                                           List: Samsung, Iphone, Xiaomi, Huawei"<<endl;
+    cout<<"Choose one company from the list: ";
+    cin>>name;
+    if (name=="Samsung")
+    {
+        cout<<"                                           List: Smartphone, Tablet, Laptop, PC "<<endl;
+        cout<<"Choose devices from the list: ";
+        cin>>device;
+        if (device=="Smartphone")
+        {
+            cout<<"Galaxy s21 ultra"<<endl;
+            cout<<"Galaxy s20 ultra"<<endl;
+            cout<<"Galaxy note20 ultra"<<endl;
+            cout<<"Galaxy note20"<<endl;
+            cout<<"Galaxy s10+"<<endl;
+             cout<<"Galaxy note10"<<endl;
+        }
+    }
+    else if (name=="Iphone")
+    
+    return 0;
+}
+*/
