@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+float Apple()
+{
+    int apple;
+    
+    cout<<"\nApple devices\n";
+    cout<<"\n 1.Computer&Laptops";
+    cout<<"\n 2.Smartphones";
+    cout<<"\n 3.Headphones";
+    cout<<"\n 4.Tablets";
+    cout<<"\n\n 5.Exit\n";
+    cout<<"\n Choose a number: ";
+    cin>>apple;
+    cout<<"\n";
+    switch(apple)
+    {
+        
+        case 1:
+        {
+            string laptops_computers[10]={"Mac Pro 2019\n","iMac 27\n","iMac Pro 27",
+                "iMac 24","iMac 21.5","MacBook Air 13","MacBook Pro 13",
+                "MacBook Pro 16","MacBook Pro 15","MacBook Pro"};
+                for(int i=0; i<10;i++)
+                {
+                    cout<<laptops_computers[i]<<endl;
+                }
+            
+            break;
+        }
+        case 2:
+        {
+            cout<<" ";
+            break;
+        }
+        case 3:
+        {
+            cout<<" ";
+            break;
+        }
+        case 4:
+        {
+            cout<<" ";
+            break;
+        }
+        case 5:
+        {
+            exit(0);
+        }
+        default:
+        {
+            cout<<"Invalid choice: Error!!!! ";
+        }
+    }
+    return 0;
+}
+int main()
+{
+    cout<<Apple();
+    
+    return 0;
+}
