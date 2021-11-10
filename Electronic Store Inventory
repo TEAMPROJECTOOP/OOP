@@ -92,3 +92,46 @@ int main()
     return 0;
 }
 */
+/*
+#include<iostream>
+using namespace std;
+void intro()
+{
+    for(int height=1;height<=9;height++)
+    {
+        for(int len=1;len<=79;len++)
+            {
+                if(height>1&&height<5&&len>1&&len<79)
+                {
+                    cout<<" ";
+
+                }
+
+                else if(height==5&&len==21)
+                {
+                    cout<<"Welcome to Electronic Store inventory!";
+                }
+                else if(height==5&&len>1&&len<79)
+                {
+                    cout<<" ";
+                }
+                else if(height>5&&height<11&&len>1&&len<79)
+                {
+                    cout<<" ";
+                }
+
+                else
+                {
+                    cout<<"*";
+                }
+                
+            }
+            cout<<endl;
+    }
+}
+int main()
+{
+    intro();
+}
+*/
+
